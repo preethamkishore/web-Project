@@ -1,0 +1,155 @@
+        .table,
+        th,
+        td {
+            border: 1px solid black;
+            border-style: double;
+            border-radius: 3px;
+        }
+        
+        .sym {
+            border: 1px solid black;
+            border-radius: 20px;
+            font-size: 30px;
+            color: rgb(99, 31, 37);
+            background-color: cadetblue;
+            height: 1cm;
+            width: 1cm;
+        }
+        
+        h3 {
+            font-size: 40px;
+            color: rgb(53, 45, 143);
+        }
+        
+        .linkcol {
+            text-decoration: none;
+            font-size: large;
+        }
+        
+        .linkcol:hover {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        
+        .linkcol1 {
+            text-decoration: none;
+            font-size: large;
+        }
+        
+        .linkcol1:hover {
+            color: red;
+            font-size: 20px;
+        }
+        
+        .linkcol2 {
+            text-decoration: none;
+            font-size: large;
+        }
+        
+        .linkcol2:hover {
+            font-style: oblique;
+            font-size: 25px;
+        }
+        
+        h2 {
+            font-size: 70px;
+            text-transform: uppercase;
+            background: #4e2121;
+            color: #fff;
+            height: 150px;
+            width: 60%;
+            margin: auto;
+            border-bottom: 10px solid #555;
+            text-align: center;
+        }
+        
+        h1 {
+            text-align: center;
+            font-size: 50px;
+        }
+        
+        .main {
+            border: 1px solid black;
+            border-radius: 20px;
+            font-size: large;
+            color: red;
+            background-color: cadetblue;
+            height: 1cm;
+            width: 1cm;
+        }
+        
+        dd {
+            font-size: 25px;
+            text-transform: uppercase;
+            background: #4e2121;
+            color: #fff;
+            height: 220px;
+            width: 60%;
+            margin: auto;
+            border-bottom: 10px solid #555;
+            text-align: center;
+        }
+        
+        .bac {
+            font-size: 70px;
+            text-transform: uppercase;
+            background: #4e2121;
+            color: #fff;
+            height: 100px;
+            width: 60%;
+            margin: auto;
+            border-bottom: 10px solid #555;
+            text-align: center;
+        }
+        
+        .banner span {
+            color: #555;
+        }
+        
+        #clock {
+            background: #000;
+            font-size: 100px;
+            color: #fff;
+            height: 150px;
+            width: 60%;
+            margin: auto;
+            border-bottom: 10px solid #333;
+            text-align: center;
+        }
+        
+        .data {
+            font-size: large;
+            text-align: center;
+            background-color: rgb(87, 185, 189);
+        }
+        
+        td:hover {
+            color: red;
+            background-color: yellow;
+            text-decoration: underline;
+        }
+        
+        td:active {
+            color: red;
+            background-color: yellow;
+            text-decoration: underline;
+        }
+        
+        th:hover {
+            color: yellow;
+            background-color: red;
+            text-decoration: underline;
+        }
+        
+        th:active {
+            color: red;
+            background-color: yellow;
+            text-decoration: underline;
+        }
+        
+        #s {
+            font-size: 20px;
+        }
+        
+        #r {
+            font-size: 20px;
+        }

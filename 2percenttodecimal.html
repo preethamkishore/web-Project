@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Percent to Decimal</title>
+    <link rel="stylesheet" href="tables.css">
+</head>
+
+<body style="background-color: rgba(51, 48, 48, 0.185);">
+    <h1>Percent to decimal conversion</h1>
+    <div>
+        <p>Enter Percent: <input type="number" id="num1" required autofocus></p>
+        <p><button type="button" name="button" onclick="convertd()">Convert</button></p>
+        <p>Result is</p>
+        <p id="res"></p>
+
+    </div>
+    <script type="text/javascript">
+        function convertd() {
+            var a = Number(document.getElementById("num1").value);
+            var res = a / 100;
+            document.getElementById("res").innerHTML = res;
+
+
+        }
+    </script>
+</body>
+
+</html>

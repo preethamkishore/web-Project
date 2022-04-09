@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fraction to Percent</title>
+    <link rel="stylesheet" href="tables.css">
+</head>
+
+<body style="background-color: rgba(51, 48, 48, 0.185);">
+    <h1>Fraction to Percent conversion</h1>
+    <div>
+        <p>Enter Numerator number : <input type="number" id="num1" required autofocus></p>
+        <p>Enter Denominator number : <input type="number" id="num2" required></p>
+        <p><button type="button" name="button" onclick="convertp()">Convert</button></p>
+        <p>Result is</p>
+        <p id="res"></p>
+    </div>
+    <script type="text/javascript">
+        function convertp() {
+            var a = Number(document.getElementById("num1").value);
+            var b = Number(document.getElementById("num2").value);
+            var res = (a / b) * 100
+            document.getElementById("res").innerHTML = res;
+
+
+        }
+    </script>
+</body>
+
+</html>
