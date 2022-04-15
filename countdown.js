@@ -5,11 +5,11 @@ var hr = document.getElementById("hr");
 var min = document.getElementById("min");
 var sec = document.getElementById("sec");
 
-//store a reference to the startTimer variable
+
 var startTimer = null;
 
 start.addEventListener('click', function() {
-    //initialize the variable
+   
     function startInterval() {
         startTimer = setInterval(function() {
             timer();
@@ -43,8 +43,6 @@ function timer() {
     return;
 }
 
-//stop the function after pressing the reset button, 
-//so the time wont go down when selecting a new time after pressing reset
 function stopInterval() {
     clearInterval(startTimer);
 }
